@@ -1,4 +1,4 @@
-# Impedance measurement setup using PicoScope
+# Impedance measurement using PicoScope
 
 ## Driver installing
 Requires Instrument Control Toolbox.
@@ -22,3 +22,6 @@ Change the generator buffer base on different Pico model at *code\m_ps5000a_arb.
 
 ## Connection
  ![Connection](/asset/Connection.png)
+
+## Impedance measurement at different voltage levels
+This code provides a ability to measure the impedance of devices under test under different voltage levels. This can be used to investigate the nonlinearity of devices, e.g. nonlinear impedance of ultrasound transducers,  at high voltage. A linear power amplifier is required for this functionality. 
