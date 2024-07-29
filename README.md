@@ -19,4 +19,4 @@ Change the generator buffer base on different Pico model at.
 2.	Precision resistor of value much smaller than the DUT impedance
 3.	Pulser for triggering the Picoscope
 ## Connection
- ![Connection](/asset/connection.png)
+ ![Connection](/asset/Connection.png)
