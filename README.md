@@ -10,12 +10,10 @@ Add these folders to Matlab path:
 Install Pico SDK for both 32bits and 64bits for Matlab 32-bit and Matlab 64-bit, regardless of the OS version (Tested on PicoSDK_32_10.6.13.97 ans PicoSDK_64_10.6.13.97), newer version may not work.
 
 Base on the lowest frequency sweep (longest pulse length), adjust the sampling frequency (reduce for low freq) and buffer length (increase for low freq)
-Change the generator buffer base on different Pico model at.
-> code\m_ps5000a_arb.m :
- ![Connection](/asset/BufferSize.png)
-[//]: #  N=49152; % for Picoscope 5244B/5444B
-[//]: # N=32768; % for Picoscope 5243B/5443B/5000D series
-[//]: # N=16384; % for Picoscope 5242B/5442B
+Change the generator buffer base on different Pico model at *code\m_ps5000a_arb.m*
+
+![Connection](/asset/BufferSize.png)
+
 
 ## Setup requirement
 1.	Device under test (DUT)
